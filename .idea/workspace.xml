@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c34fcd1b-3d44-44a0-9089-0a330b7093ed" name="Default Changelist" comment="" />
+    <list default="true" id="c34fcd1b-3d44-44a0-9089-0a330b7093ed" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Calculator/Calculator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Calculator/TemperatureInput.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Form/AddForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Form/EditForm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Search/FilterableProductTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Search/ProductCategoryRow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Search/ProductRow.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Search/ProductRow.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Search/ProductTable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Search/SearchBar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Table/Table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Table/Table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Todo/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todo/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +63,7 @@
       <workItem from="1568965436361" duration="600000" />
       <workItem from="1569241462562" duration="28000" />
       <workItem from="1569322259554" duration="1199000" />
-      <workItem from="1569331132602" duration="121000" />
+      <workItem from="1569331132602" duration="1474000" />
     </task>
     <servers />
   </component>
