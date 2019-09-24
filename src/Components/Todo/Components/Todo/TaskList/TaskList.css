@@ -1,0 +1,43 @@
+button {
+    padding: 5px 10px;
+    margin: 5px 20px;
+
+    border: none;
+    border-radius: 4px;
+
+    background: none;
+}
+
+button:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.doneTask {
+    text-decoration: line-through;
+}
+
+.emptyMessage {
+    text-align: center;
+}
+
+.deleteButton,
+.timesButton {
+    color: grey;
+}
+
+.deleteButton:hover {
+    color: black;
+}
+
+.timesButton:hover {
+    color: red;
+}
+
+.checkButton:hover {
+    color: rgb(114, 190, 0);
+}
