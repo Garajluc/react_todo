@@ -36,7 +36,7 @@ class InputField extends Component {
             <thead>
                 <tr className="row">
                     <td className="col-sm-10">
-                        <input className="addInput" type='text' name='tasks' placeholder='Add new task...' value={this.state.title} onChange={this.handleChange} />
+                        <input className="addInput" type='text' name='tasks' placeholder='Add new tasks...' value={this.state.title} onChange={this.handleChange} />
                     </td>
                     <td className="col-sm-2 row addButtonContainer">
                         <button className="col addButton" onClick={this.handleSubmit}>
