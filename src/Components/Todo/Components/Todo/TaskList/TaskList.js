@@ -9,19 +9,19 @@ class TaskList extends Component {
     //Function 
     handleToggle(taskToToggle, property) {
         this.props.onToggle(taskToToggle, property)
-    }
+    };
 
     handleDelete = (taskToDelete) => {
         this.props.onDelete(taskToDelete)
-    }
+    };
 
     handleEdit = (editedTask) => {
         this.props.onEdit(editedTask)
-    }
+    };
 
     handleOpenDetail = (taskToOpenDetails) => {
         this.props.handleOpenDetails(taskToOpenDetails);
-    }
+    };
 
     render() {
         const { tasks } = this.props;
@@ -65,7 +65,7 @@ class TaskList extends Component {
         // Style
         const noTask = {
             color: 'grey'
-        }
+        };
 
         return (
             <tbody>

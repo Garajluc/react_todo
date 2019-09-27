@@ -3,20 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="c34fcd1b-3d44-44a0-9089-0a330b7093ed" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Calculator/Calculator.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Calculator/TemperatureInput.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Form/AddForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Form/EditForm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Search/FilterableProductTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Search/ProductCategoryRow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Search/ProductRow.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Search/ProductRow.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Search/ProductTable.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Search/SearchBar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/Table.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Table/Table.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Todo/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todo/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Todo/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Todo/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Todo/Components/Navbar/BottomNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todo/Components/Navbar/BottomNavbar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Todo/Components/Todo/TaskList/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todo/Components/Todo/TaskList/TaskList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Todo/Components/Todo/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todo/Components/Todo/Todo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,6 +29,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucia\Desktop\Lucy\GitHub\React\react_todo\src\Components\Todo" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -63,7 +60,9 @@
       <workItem from="1568965436361" duration="600000" />
       <workItem from="1569241462562" duration="28000" />
       <workItem from="1569322259554" duration="1199000" />
-      <workItem from="1569331132602" duration="1474000" />
+      <workItem from="1569331132602" duration="1645000" />
+      <workItem from="1569411660316" duration="882000" />
+      <workItem from="1569596892197" duration="2292000" />
     </task>
     <servers />
   </component>
@@ -75,7 +74,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

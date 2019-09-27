@@ -5,7 +5,7 @@ import TaskDetails from './TaskDetailes/TaskDetails'
 
 class Todo extends Component {
     constructor() {
-        super()
+        super();
         let myLocalStorage = JSON.parse(localStorage.getItem('tasks'));
 
         this.state = {
@@ -20,7 +20,7 @@ class Todo extends Component {
         }, () => {
             localStorage.setItem('tasks', JSON.stringify(this.state))
         })
-    }
+    };
 
     handleToggle = (taskToToggle, property) => {
         // Create a copyState of current state
@@ -30,7 +30,7 @@ class Todo extends Component {
                 // change the value
                 tasksCopy[i][property] = !tasksCopy[i][property];
             }
-        })
+        });
 
         // Set the state by copyState
         this.setState({
@@ -38,7 +38,7 @@ class Todo extends Component {
         }, () => {
             localStorage.setItem('tasks', JSON.stringify(this.state))
         })
-    }
+    };
 
     handleDelete = (taskToDelete) => {
         this.setState({
@@ -48,7 +48,7 @@ class Todo extends Component {
         }, () => {
             localStorage.setItem('tasks', JSON.stringify(this.state))
         })
-    }
+    };
 
     handleEdit = (editedTask) => {
         // Create a copyState of current state
@@ -58,7 +58,7 @@ class Todo extends Component {
                 // change the value
                 tasksCopy[i].title = editedTask.title;
             }
-        })
+        });
 
         // Set the state by copyState
         this.setState({
@@ -66,7 +66,7 @@ class Todo extends Component {
         }, () => {
             localStorage.setItem('tasks', JSON.stringify(this.state))
         })
-    }
+    };
 
     handleOpenDetails = (taskToOpenDetails) => {
         console.log('handleOpenDetails inside the Todo.js')
@@ -76,7 +76,7 @@ class Todo extends Component {
         //     // taskDetail = !task.isOpen ? <TaskDetails /> : null
         //     let detail = taskToOpenDetails.key === task.key ? task : null;
         // })
-    }
+    };
 
     render() {
         const { tasks } = this.state;
