@@ -6,17 +6,19 @@ import './App.css';
 import { BrowserRouter, Route } from 'react-router-dom';
 
 class App extends Component {
-  render() {
-    return (
-        <div>
-          <BrowserRouter>
-            <Route exact path="/" component={Todo} />
-            <Route path="/about" component={About} />
-            {/*<BottomNavbar />*/}
-          </BrowserRouter>
-        </div>
-    )
-  }
+    render() {
+        return (
+            <div>
+                <BrowserRouter>
+                    <BottomNavbar />
+                    <div className="m_body">
+                        <Route exact path="/" component={Todo} />
+                        <Route path="/about" component={About} />
+                    </div>
+                </BrowserRouter>
+            </div>
+        )
+    }
 }
 
 export default App;

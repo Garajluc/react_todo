@@ -2,20 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c34fcd1b-3d44-44a0-9089-0a330b7093ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/Todo/Components/About/About.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Todo/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Todo/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Todo/Components/About/About.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todo/Components/About/About.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Todo/Components/Navbar/BottomNavbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todo/Components/Navbar/BottomNavbar.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Todo/Components/Navbar/BottomNavbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todo/Components/Navbar/BottomNavbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Todo/Components/Todo/TaskList/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todo/Components/Todo/TaskList/TaskList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Todo/Components/Todo/Todo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todo/Components/Todo/Todo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Todo/Components/Todo/InputField/InputField.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Todo/Components/Todo/InputField/InputField.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -62,7 +70,8 @@
       <workItem from="1569322259554" duration="1199000" />
       <workItem from="1569331132602" duration="1645000" />
       <workItem from="1569411660316" duration="882000" />
-      <workItem from="1569596892197" duration="2292000" />
+      <workItem from="1569596892197" duration="5192000" />
+      <workItem from="1569844562234" duration="1372000" />
     </task>
     <servers />
   </component>
