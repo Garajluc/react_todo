@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import "./About.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faBehance, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 class About extends Component {
 
@@ -19,9 +21,23 @@ class About extends Component {
                         By clicking on the task's title, the details of the specific task, that are not originally visible, are revealed.
                     </p>
                 </div>
+                <div className="as_bottom">
+                    <ul className="as_bottom_social_list">
+                        <li>
+                            <a href="https://www.behance.net/luciagaraj5beb" target="_blank"><FontAwesomeIcon icon={faBehance}/></a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/Garajluc" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/lucia-garajova/" target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+                        </li>
+                    </ul>
+                </div>
             </section>
         )
     }
 }
 
 export default About;
+

@@ -1,3 +1,23 @@
 .as_intro {
     margin-top: 50px;
 }
+
+.as_bottom_social_list {
+    padding: 0;
+}
+
+.as_bottom_social_list > * {
+    display: inline-block;
+    padding: 5px;
+    width: 50px;
+    font-size: 25px;
+}
+
+
+.as_bottom_social_list a > * {
+    color: var(--dark);
+}
+
+.as_bottom_social_list a:hover > * {
+    color: var(--cyan);
+}
